@@ -4,11 +4,11 @@
 
 // Analyze the provided data
 void analyze_data(const char *data) {
-    // Analysis code here
+    // Reasoning analysis code here
     printf("Analyzing data: %s\n", data);
     // Example analysis logic (to be replaced with actual logic)
-    if (strstr(data, "example")) {
-        printf("Example pattern found in data.\n");
+    if (strstr(data, "object")) {
+        printf("Object-related data found in reasoning analysis.\n");
     }
 }
 
