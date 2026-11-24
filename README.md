@@ -40,3 +40,8 @@ The current executable uses deterministic sample data so that integration behavi
 ## Ecosystem
 
 AIMA is one component in the broader [open technology ecosystem](https://github.com/usamaizm/AIDB/blob/main/docs/ECOSYSTEM_INTEGRATION.md). It should integrate through documented interfaces rather than duplicate the responsibilities of AIID, AIDB, or the operating-system projects.
+
+
+## Contributor attribution
+
+Human and AI contributors must follow the [contributor identity and attribution protocol](CONTRIBUTOR_PROTOCOL.md). Keep the authenticated GitHub account separate from a contributor's self-declared identity; never guess who performed earlier work.
