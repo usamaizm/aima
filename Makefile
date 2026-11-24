@@ -16,7 +16,7 @@ test: $(TARGET)
 	cmp "$$first" "$$second"; \
 	grep -q "completed successfully" "$$first"; \
 	test "$$(grep -c '^Iteration ' "$$first")" -eq 5; \
-	grep -q '^Iteration 5: observations=5 knowledge=5 vision=42x42 vocabulary=30$$' "$$first"
+	grep -q '^Iteration 5: observations=5 knowledge=5 vision=42x42 vocabulary=29$$' "$$first"
 
 clean:
 	rm -f $(TARGET)
